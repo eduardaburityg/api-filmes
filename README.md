@@ -1,12 +1,42 @@
-# React + Vite
+# 🎬 API Filmes
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Uma aplicação em **React** que consome a API do [TMDB](https://www.themoviedb.org/) para buscar informações sobre filmes, mostrar detalhes e gerenciar favoritos.  
 
-Currently, two official plugins are available:
+O projeto foi estilizado com **Tailwind CSS**, inspirado em plataformas como Stremio, para uma experiência moderna e responsiva.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Funcionalidades
 
-## Expanding the ESLint configuration
+- Buscar filmes pelo título  
+- Visualizar detalhes do filme (sinopse, avaliação, data de lançamento e pôster)  
+- Listar e gerenciar filmes favoritos  
+- Layout responsivo, inspirado em plataformas de streaming  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demonstração
+
+<img width="878" height="489" alt="image" src="https://github.com/user-attachments/assets/36aaa64e-1ba8-40df-81e6-95fd0c30caa2" />
+
+
+## 🛠 Tecnologias Utilizadas
+
+- **React** (componentes e hooks)  
+- **React Router Dom** (navegação entre páginas)  
+- **Tailwind CSS** (estilização moderna)  
+- **TMDB API** (dados dos filmes)  
+
+## ⚡ Como Rodar Localmente
+
+1. Clone o repositório:  
+```bash
+git clone https://github.com/eduardaburityg/api-filmes.git
+```
+2. Entre na pasta do projeto
+```bash
+cd api-filmes/api-filmes
+```
+3. Instale as dependências
+```bash
+npm install
+```
+4. Rode o projeto
+```bashh
+npm run dev
