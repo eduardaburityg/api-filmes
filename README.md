@@ -13,7 +13,7 @@ O projeto foi estilizado com **Tailwind CSS**, inspirado em plataformas como Str
 
 ## Demonstração
 
-<img width="878" height="489" alt="image" src="https://github.com/user-attachments/assets/36aaa64e-1ba8-40df-81e6-95fd0c30caa2" />
+<img width="1174" height="515" alt="image" src="https://github.com/user-attachments/assets/b6624aaa-28ec-41eb-a662-25f42b7dcfc1" />
 
 
 ## 🛠 Tecnologias Utilizadas
