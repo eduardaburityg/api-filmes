@@ -5,7 +5,7 @@ export default function DetailsPage() {
   const { id } = useParams();
   const [movie, setMovie] = useState(null);
   const [similar, setSimilar] = useState([]);
-  const API_KEY = 'abeaa3f339209d1cd0a549761e3fe4c3';
+  const API_KEY = 'API';
 
   useEffect(() => {
     const fetchMovie = async () => {

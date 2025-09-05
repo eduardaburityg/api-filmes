@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const API_KEY = 'abeaa3f339209d1cd0a549761e3fe4c3';
+const API_KEY = 'API'; // ADD A API DO TMDB
 const API_URL = 'https://api.themoviedb.org/3/movie';
 
 export default function FavoritesPage() {

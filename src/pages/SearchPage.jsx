@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const API_KEY = 'abeaa3f339209d1cd0a549761e3fe4c3';
+const API_KEY = 'API';
 
 export default function SearchPage() {
   const [query, setQuery] = useState('');
